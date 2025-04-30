@@ -14,33 +14,34 @@ REST API를 통해 메모를 추가하고 조회할 수 있습니다.
 🚀 프로젝트 실행 방법
 
 1. 레포지토리 클론 & 폴더 이동
----bash
+```bash
 git clone https://github.com/DOOINSEO/memo-server.git
 cd memo-server
-
+```
 2. 의존성 설치
----bash
+```bash
 npm install
-
+```
 3. 서버 실행
----bash
+```bash
 node server.js
 서버가 http://localhost:3000에서 실행됩니다.
-
+```
 🛠️ API 사용 방법 (터미널에서 curl 사용)
 
 ✅ 메모 추가 (POST /memo)
----bash
+```bash
 curl -X POST http://localhost:3000/memo -H "Content-Type: application/json" -d "{\"content\":\"첫 번째 메모입니다\"}"
-
+```
 ✅ 메모 전체 조회 (GET /memos)
----bash
+```bash
 curl http://localhost:3000/memos
-
+```
 응답 예시
----json
+```json
 {
   "id": 1,
   "content": "첫 번째 메모입니다",
   "createdAt": "2025-04-30T05:23:35.409Z
 }
+```
