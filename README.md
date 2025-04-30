@@ -28,6 +28,7 @@ node server.js
 서버가 http://localhost:3000에서 실행됩니다.
 
 🛠️ API 사용 방법 (터미널에서 curl 사용)
+
 ✅ 메모 추가 (POST /memo)
 ---bash
 curl -X POST http://localhost:3000/memo -H "Content-Type: application/json" -d "{\"content\":\"첫 번째 메모입니다\"}"
