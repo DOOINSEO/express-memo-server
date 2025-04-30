@@ -15,7 +15,7 @@ REST API를 통해 메모를 추가하고 조회할 수 있습니다.
 
 1. 레포지토리 클론 & 폴더 이동
 ---bash
-git clone https://github.com/your-username/memo-server.git
+git clone https://github.com/DOOINSEO/memo-server.git
 cd memo-server
 
 2. 의존성 설치
